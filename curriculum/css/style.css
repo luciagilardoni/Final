@@ -1,0 +1,181 @@
+*{padding: 0;margin: 0;}
+
+html
+{scroll-behavior: smooth;
+box-sizing: border-box;}
+
+.parte1 {background-image: url("1.jpg");
+   background-repeat: no-repeat;
+   background-position:center center ;
+   background-attachment: fixed;
+   background-size: cover;
+padding: 5%}
+
+
+.menu {width: 100% ;margin: auto;}
+nav {margin-left: 70%; padding: 2%;}
+nav a {background-color: rgb(207, 58, 133);
+   color: white;
+   text-decoration: none;
+   padding: 5px;
+width: 50%; margin: auto;font-family: 'Montserrat', sans-serif;}
+
+nav a:hover {background-color:white ;
+   color:rgb(207, 58, 133)}
+
+
+.info {width: 60%;padding: 2%; margin: 0% auto 0% auto; border: solid rgb(207, 58, 133);
+   display: flex;background-color:rgba(255, 255, 255, 32%); border-radius: 2% 2% 0px 0px;}
+.info div {width: 50%;}
+.info div h3 {text-align:left;font-size: 17px;margin-left: 5%; background-color:rgb(207, 58, 133, 39%);color: black;padding: 2%;
+ font-style: italic;font-family: 'Montserrat', sans-serif;}
+
+.img {margin:5% auto 5% auto}
+.imagen {width: 100%;}
+.firma {width: 100%;}
+
+
+.redes {font-size: 10px;text-decoration: none;width: 63%;margin: auto;background-color:rgb(207, 58, 133);padding: 0.5%;
+   border:solid rgb(207, 58, 133) ; display: flex;flex-direction: row-reverse;
+   flex-wrap: wrap;
+   justify-content: space-around;}
+
+.redes div a {text-decoration: none;color: white;font-size: 30px}
+.redes div {text-align: center;}
+
+ .parte2 {background-image: url("2.jpg");
+    background-repeat: no-repeat;
+    background-position:center center ;
+    background-attachment: fixed;
+    background-size: cover;
+    padding: 5%}
+
+
+.titulos h2 {font-family: 'Montserrat', sans-serif;font-size: 30px;text-align: center;font-weight: 400;
+   border-bottom: 2px solid rgb(207, 58, 133);}
+.titulos {width: 30%;margin: auto;padding: 1%;background-color:#ffffffe0;;color:rgb(207, 58, 133) ;}
+ 
+.parte2 p {font-family: 'Montserrat', sans-serif;font-size: 20px;text-align: center;font-weight: 700;padding: 1%;
+   background-color:rgb(241 234 234 / 45%);margin: 2%}
+
+.frases {display: flex;width:100%;flex-direction: row;font-family: 'Montserrat', sans-serif;
+   font-size: 20px;text-align: center;font-weight: 700;padding: 1%;background-color: none;}
+.frases div{width: 30%;margin: auto;border-radius: 0 0 15px 15px; background-color:#cf3a858c}
+.frases img {width: 97%;margin: 2% auto 1% auto;border-radius: 0 0 15px 15px;}
+
+
+ .parte3 {background-image: url("3.jpg");
+    background-repeat: no-repeat;
+    background-position:center center ;
+    background-attachment: fixed;
+    background-size: cover;
+    padding: 5%}
+
+.general {width: 100%;display: flex;flex-direction: row;margin: 2% auto;}
+
+.texto {width: 70%;font-family: 'Montserrat', sans-serif;
+   font-size: 20px;text-align: center;font-weight: 700;display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   justify-content: space-around;margin-top: 2%;}
+
+.hijo{box-sizing: border-box;
+background:rgba(241, 234, 234, 0.664)
+;width: 30%;
+height: 30%;
+padding: 0.5%;
+margin:0.5%;;
+}
+.hijo h4 {font-family: 'Montserrat', sans-serif;
+   font-size: 20px;text-align: center;font-weight: 700 }
+
+.gramy {width: 30%;}
+.gramy img {width: 100%;margin-top: 8%;}
+
+
+.parte4 {background-image: url("4.jpg");
+        background-repeat: no-repeat;
+        background-position:center center ;
+        background-attachment: fixed;
+        background-size: cover;
+        padding: 5%}
+
+
+
+
+.contenedor {display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-around;}
+
+.item  {box-sizing: border-box;
+   border:4px solid rgb(207, 58, 133);
+width: 40%;
+padding: 2%;
+margin:2%;
+background-color: #ffffff26}
+.item p {background-color: rgb(207, 58, 133, 45%);padding: 2%;font-family: 'Montserrat', sans-serif;
+   font-size: 18px;text-align: center;font-weight: 700;color: white;}
+
+
+footer {font-family: 'Montserrat', sans-serif; font-size: 15px;background-color: white;padding: 2%;}
+footer h3 {background-color: rgb(207, 58, 133);color: white;;text-align: center;font-weight: 400;padding: 0.5%;}
+.icono {display: none;}
+
+/*Medianos*/
+@media screen and (min-width: 581px) and (max-width: 990px)
+{
+nav {margin-left: 48%;margin-top: 1%;margin-bottom: 1%;}
+.info {width: 80%;}
+.info div h3 {font-size: 12.5px;}
+.img {margin: 10% auto 5% auto}
+.redes {width: 83%;}
+.redes div a {font-size: 20px;}
+.titulos {width: 30%;}
+.titulos h2 {font-size: 20px;}
+.parte2 p {font-size: 17px;}
+.frases div {width: 29%;}
+.general{display: block;width: 100%;}
+.gramy {width: 90%;margin: auto;}
+.gramy img {margin-top: 5%;}
+.texto {width: 90%;margin: auto;padding: 2%;}
+.item p {font-size: 16px;}
+.item {width: 90%;margin: 3%;}
+footer {font-size: 12px;}
+.icono {display: none;}
+}
+
+/*Pequeños*/
+@media screen and (max-width: 580px)
+{
+.menu {width: 100%;background-color: white;}
+
+.icono {display: block; margin-top: -5%; font-size: 40px; margin-left: 85%;
+   color:rgb(207, 58, 133);padding-top: 10%;}
+
+.responsive {display: block; width: 80%; }
+
+nav {display: none;width: 80%;;margin: auto;}
+nav a {display: block;font-size: 15px;width: 100%;text-align: center;margin-bottom:2%; border-radius: 10px;}
+
+.info {width: 90%;}
+
+.info div h3 {font-size: 12px;}
+.img {margin: 10% auto 5% auto}
+.redes {width: 93%;}
+.redes div a {font-size: 14px;}
+.titulos {width: 50%;}
+.titulos h2 {font-size: 17px;}
+.parte2 p {font-size: 14px;}
+.frases {font-size: 14px; display: block;}
+.frases div {width: 80%;padding: 1%;border-radius: 15px; margin: 2% auto 2% auto;}
+.hijo h4 {font-size: 14px;}
+.hijo {width: 100%;padding: 0.5%; margin: 1%;}
+.general{display: block;width: 100%;}
+.gramy {width: 90%;margin: auto;}
+.gramy img {margin-top: 5%;}
+.texto {width: 80%;margin: auto;padding: 2%;}
+.item p {font-size: 14px;}
+.item {width: 90%;margin: 3%;}
+footer {font-size: 10px;}
+}

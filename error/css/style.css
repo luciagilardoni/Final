@@ -1,0 +1,98 @@
+*{padding: 0;margin: 0;}
+body
+ {background-image: url(fondo.png);
+    background-size: cover ;
+    overflow: hidden}
+
+.loser {font-size: 45px;position: absolute;left: 16%;top: 20%;transform: rotate(-20deg);z-index: 2;
+    animation-name:texto; animation-duration: 3s; 
+    animation-iteration-count: 1 ;font-family:'Anton', sans-serif;color: #B1D7D3;letter-spacing: 0.1em;
+    -webkit-text-stroke: 1px white; animation-delay: 2s}
+@keyframes texto 
+{
+    0%{font-size:60px } 
+    100% {font-size: 45px;}
+}
+.info {width: 60%;padding: auto; margin:10% auto 10% auto;text-align: center; background-color: #E9A7A7; border: 4px solid #C5E5E0;
+    display: flex; flex-direction: row;position: absolute; left: 20%;z-index: 1;font-family: 'Montserrat', sans-serif;}
+
+.info h2 {padding-top: 15%;}
+.info h3 {padding-bottom: 10%;padding-left: 20%;}
+.info h1 {padding-top: 5%;padding-bottom: 5%;font-style: italic;}
+
+.redonda {width:300px; height:300px; border-radius:150px;padding: 2%;}
+    
+.play {width: 30%;position: absolute;left: 36.5%;bottom: 10%;}
+.onda {width: 100%;}
+.play h3 {text-align: center;font-family: 'Montserrat', sans-serif;font-size: 20px;}
+.boton {position: absolute; left: 40%;animation-name: giro;animation-duration:3s; animation-iteration-count: infinite;
+transition-timing-function: ease; transition-property: all;transition: 1s;}
+@keyframes giro
+{
+    0% {transform:rotate(360deg)}
+ }
+
+.boton:hover {transform: scale(1.2, 1.2);}
+
+.footer {width: 20%;margin-left: 80%;}
+.firma {position: absolute; ;width: 20%; } 
+
+
+.auriverde {position: absolute;left: 5%;top: -30%;animation-name:auri;animation-duration: 5s;animation-delay: 1s;
+       animation-iteration-count: infinite;}
+
+@keyframes auri
+{
+   0% {transform: translate(0px, 0px)}
+   100% {transform: translate(0px, 1000px)}
+} 
+
+.guitaverde {position: absolute; left: 45%;top:-30%;animation-name:guita; animation-duration: 5s; animation-delay: 4s;
+    animation-iteration-count: infinite}
+@keyframes guita 
+{
+    0% {transform: translate(0px, 0px)}
+   100% {transform: translate(0px, 1000px)}
+}
+.notaverde {position: absolute; top: -30%; left: 25%;animation-name:nota; animation-duration: 5s;animation-delay: 2s;
+    animation-iteration-count: infinite}
+@keyframes nota 
+{
+    0% {transform: translate(0px, 0px)}
+    100% {transform: translate(0px, 1000px)}
+}
+.microverde {position: absolute; top: -30%; left: 35%;animation-name:micro;  animation-duration: 5s;animation-delay: 1;
+    animation-iteration-count: infinite}
+@keyframes micro 
+{
+    0% {transform: translate(0px, 0px)}
+    100% {transform: translate(0px, 1000px)}
+}
+.claveverde {position: absolute;top: -30%; left: 15%;animation-name:clave; animation-duration: 5s;animation-delay: 3s;
+    animation-iteration-count: infinite}
+@keyframes clave 
+{
+    0% {transform: translate(0px, 0px)}
+    
+    100% {transform: translate(0px, 1000px)}
+
+}
+
+.aurirosa {position: absolute; left: 55%; top: -30%;animation-name:auri; animation-duration: 5s;animation-delay: 1s;
+    animation-iteration-count: infinite}
+
+
+.guitarosa {position: absolute;left: 90%;top: -30%;animation-name:guita; animation-duration: 5s; animation-delay: 4s;
+    animation-iteration-count: infinite}
+    
+  
+.notarosa {position: absolute;left: 75%;top: -30%; animation-name:nota; animation-duration: 5s;animation-delay: 2s;
+    animation-iteration-count: infinite}
+
+.microrosa {position: absolute;left: 85%;top: -30%;animation-name:micro; animation-duration: 5s;animation-delay: 1;
+    animation-iteration-count: infinite}
+
+.claverosa {position: absolute;left: 65%;top: -30%;animation-name:clave; animation-duration: 5s;animation-delay: 3s;
+    animation-iteration-count: infinite }
+
+

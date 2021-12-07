@@ -1,0 +1,151 @@
+*{margin: 0%;padding: 0%;}*
+
+body{overflow-x: hidden;}
+
+.menu a {font-size: 18px; text-transform: uppercase;font-family: 'Montserrat', sans-serif;}
+
+.navbar-light .navbar-nav .nav-link 
+{color:rgb(44, 84, 136);font-weight: bold;transition-timing-function: ease;
+    transition-property: all;
+    transition: 1s;} 
+
+.navbar-light .navbar-nav .nav-link:hover 
+{color:rgb(44, 84, 136);border-bottom:2px solid rgb(44, 84, 136);transform: scale(1.1, 1.1)}
+
+.card {background-color:#ffffff26;;overflow: hidden}
+.card-img-top {transition-timing-function: ease;
+transition-property: all;
+transition: 1s}
+
+.card-img-top:hover {transform: scale(1.2, 1.2) }
+.card:hover {background-color:#ffffff9a} 
+
+
+.fondo {background-image: url("fondo1.jpg");
+    background-repeat: no-repeat;
+    background-position:center center ;
+    background-attachment: fixed;
+    background-size: cover ;padding: 5%;}
+.fondored {background-image: url("fondored.jpg");
+        background-repeat: no-repeat;
+        background-position:center center ;
+        background-attachment: fixed;
+        background-size: cover ;padding: 5%;}
+.blanco {background-color: white;
+    background-repeat: no-repeat;
+    background-position:center center ;
+    background-attachment: fixed;
+    background-size: cover ;padding: 1.8% ;}
+
+.titulos {animation-name: titulos;
+    animation-duration: 2s;
+    font-size: 60px;font-family: 'Montserrat', sans-serif; color: white; letter-spacing: 0.1em;font-weight: 700; 
+    background-color: rgb(0 62 135 / 38%);text-transform: uppercase; border-bottom: 1px solid white;}
+.titulos2 {animation-name: titulos;
+        animation-duration: 2s;
+        font-size: 60px;font-family: 'Montserrat', sans-serif; color: white; letter-spacing: 0.1em;font-weight: 700; 
+        background-color: #ffffff26;text-transform: uppercase; border-bottom: 1px solid white;}
+
+.textored {animation-name: texto; animation-duration: 4s; background-color:#ffffff26 ;animation-delay: 2s;animation-fill-mode:backwards;
+    border: 4px solid rgb(245, 10, 22);}
+.txt {background-color: rgba(207, 58, 78, 0.45);color: white; font-family:'Montserrat', sans-serif;font-size:20px; text-align: center}
+ @keyframes titulos 
+ {
+    0% {opacity: 0%;transform: translateX(-200%);}
+
+    100% {opacity: 100%;} 
+ }
+
+ .spinner-border, .spinner-grow {color: white;}
+ b, strong {color: white; font-family:'Montserrat', sans-serif;font-size:20px;}
+.img-thumbnail {transition-property: all; transition: 1s; background-color:#ffffff26;
+    border: 2px solid rgb(44, 84, 136);} 
+.img-thumbnail:hover {transform:scale(120%);
+    transition: 1s;}
+.videos {transition-property: all; transition: 1s; background-color:rgba(207, 58, 78, 0.45);
+    border: 2px solid rgb(245, 10, 22);} 
+.videos:hover {transform:scale(80%);
+    transition: 1s;}
+
+
+
+
+.meet {color: white; font-family:'Montserrat', sans-serif;font-size:15px; text-align: center;
+    animation-name: texto; animation-duration: 4s; background-color: #ffffff26;animation-delay: 3s;
+    animation-fill-mode:backwards; border: 4px solid rgb(44, 84, 136); }
+.mett {display: flex;align-items: center;}
+.fans {animation-name: texto; animation-duration: 4s;animation-delay: 2s;animation-fill-mode:backwards}
+.fans1 {animation-name: texto; animation-duration: 4s;animation-delay: 5s;animation-fill-mode:backwards}
+.footer a {font-size: 15px;font-family: 'Montserrat', sans-serif; color: white;text-decoration: none; transition-property: all; transition: 1s;}
+
+.merch {display: flex;justify-content: center; width: 10%; margin: 2% auto 2% auto;}
+.boton {display: flex;justify-content: center;width: 50%; margin: auto;}
+.footer a:hover { color:rgb(44, 84, 136);transition: 1s;font-size: 20px}
+
+.video {animation-name: texto; animation-duration: 4s; ;animation-delay: 6s;
+    animation-fill-mode:backwards}
+.colec {animation-name: texto; animation-duration: 4s;;animation-delay: 8s;
+    animation-fill-mode:backwards;}
+.album {animation-name: texto; animation-duration: 4s;animation-delay: 3s;
+    animation-fill-mode:backwards}
+.alb {transition-property: all; transition: 1s;}
+.alb:hover {transform:scale(160%) rotateY(360deg);transform-style:   
+    preserve-3d;}
+.compra {background-color:#ffffff26;border: 4px solid rgb(44, 84, 136);animation-name: titulos;
+    animation-duration: 2s;}
+.compra2 {display: flex;align-items: center}
+.bincha {transition-property: all; transition: 1s;} 
+.bincha:hover {transform:scale(120%);
+    transition: 1s;}
+.productos {animation-name: texto; animation-duration: 4s;;animation-delay:2s;
+    animation-fill-mode:backwards;border: 4px solid rgb(44, 84, 136); background-color: #ffffff26;display: flex;justify-content: center;}
+.detalle {background-color: rgb(0 62 135 / 38%)}
+.productos2  {animation-name: texto; animation-duration: 4s;;animation-delay:5s;
+    animation-fill-mode:backwards;border: 4px solid rgb(44, 84, 136); background-color: #ffffff26}
+.productos3 {animation-name: texto; animation-duration: 4s;;animation-delay:8s;
+    animation-fill-mode:backwards;border: 4px solid rgb(44, 84, 136); background-color: #ffffff26}
+h5 {color: white;font-family:'Montserrat', sans-serif;font-style: italic;font-size: 18px;}
+h6 {color: white;font-family:'Montserrat', sans-serif;padding: 2%; }
+.prod {background-color:rgb(0 62 135 / 38%);}
+h3 {color: white;font-family:'Montserrat', sans-serif;font-size: 40px;text-align: center;}
+h4 {color: white;font-family:'Montserrat', sans-serif;font-style: italic;font-size: 18px;text-align: center}
+.formulario {animation-name: form; animation-duration: 4s;animation-delay: 3s;animation-fill-mode:backwards}
+
+
+@keyframes form 
+{
+    0% {opacity: 0%;width: 0%;}
+
+    100% {opacity: 100%;width: 100%;} 
+ }
+ 
+.form-label {color: white; font-family:'Montserrat', sans-serif; font-style: italic;font-size: 15px;}
+.form-select {color: black; font-family:'Montserrat', sans-serif;font-size: 15px}
+.form-check {color: white; font-family:'Montserrat', sans-serif;font-size: 15px}
+.pt-0 {color: white; font-family:'Montserrat', sans-serif;font-style: italic;font-size: 15px}
+.btn-primary {color: black; background-color: white; border-color: white;font-family:'Montserrat', sans-serif;font-size: 15px}
+.btn-primary:hover {color:white; background-color: rgb(44, 84, 136); border-color: rgb(44, 84, 136);font-family:'Montserrat', sans-serif;font-size: 15px;font-style: italic;}
+
+.texto {color: white; font-family:'Montserrat', sans-serif;font-size:15px; text-align: center;
+    animation-name: texto; animation-duration: 4s; background-color: rgb(0 62 135 / 38%);animation-delay: 2s;animation-fill-mode:backwards;}
+
+@keyframes texto
+{
+    0% {opacity: 0%}
+
+    100% {opacity: 100%} 
+ }
+
+.cv {animation-name: cv;animation-duration: 1s; animation-fill-mode: backwards;animation-delay: 1s;}
+@keyframes cv
+{
+    0% {opacity: 0%}
+
+    100% {opacity: 100%} 
+ }
+
+.curriculum {color: white; font-family:'Montserrat', sans-serif;font-size:15px; text-align: center;
+    animation-name: texto; animation-duration: 4s; background-color: #ffffff26;animation-delay: 4s;
+    animation-fill-mode:backwards; border: 4px solid rgb(44, 84, 136) }
+.card-title {background-color:rgb(0 62 135 / 38%);margin-bottom: 0%; padding: 2%;}
+.card-text {background-color:rgb(0 62 135 / 38%); padding: 1%;}
